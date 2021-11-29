@@ -5,7 +5,8 @@
     scroll-behavior: smooth;
 }
 body{
-background-color: aliceblue !important;
+    background-color: aliceblue !important;
+    font-size: 1rem;
 }
 
 nav{
