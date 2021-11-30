@@ -309,7 +309,7 @@ font-family: 'Newsreader', serif;
     }
     
     }
-    @media screen and (max-width: 1400px) and (min-width: 780px){
+    @media (max-width: 1400px) and (min-width: 780px){
         .img{
             display: grid;
             grid-template-columns: 1fr 1fr;
