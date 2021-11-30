@@ -253,8 +253,8 @@ font-family: 'Newsreader', serif;
      }
      .img{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr !important;
         grid-gap: 2rem;
     }
     .project-img img {
@@ -312,8 +312,8 @@ font-family: 'Newsreader', serif;
     @media (max-width: 1400px) and (min-width: 780px){
         .img{
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr !important;
+            grid-template-rows: 1fr 1fr !important;
             grid-gap: 2rem;
         }
         .company{
