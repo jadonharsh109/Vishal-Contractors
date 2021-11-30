@@ -8,39 +8,8 @@ body{
     background-color: aliceblue !important;
     font-size: 1rem;
 }
-
-nav{
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("img/bg2.jpg");
-    background-position: center;
-    background-size: cover;
-}
-.fa-bars, .logo-text{
-    display: none !important;
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-}
-nav ul{
-    display: flex;
-    
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
-}
-nav ul li{
-    list-style: none;
-    margin: 0 50px;
-}
-nav ul li a{
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-}
-nav ul li a:hover{
-    color: red;
-    transition: 0.5s;
+.navbar{
+    padding: 1.5rem 1rem !important;
 }
 .home{
     height: 90vh;
@@ -296,12 +265,12 @@ font-family: 'Newsreader', serif;
     .head h1{
         font-size: 2.5rem;
     }
-    nav ul{
+    /* nav ul{
         justify-content: space-between;
     }
     .fa-bars, .logo-text{
-        display: initial;
-    }
+        display: initial !important;
+    } */
     .svg img{
         width: 110px;
     }
@@ -312,8 +281,8 @@ font-family: 'Newsreader', serif;
     }
     .company{
         padding-top: 20px;
-        height: fit-content;
         padding-bottom: 0;
+        height: fit-content;
         
     }
     .timeline li h4{
@@ -349,8 +318,8 @@ font-family: 'Newsreader', serif;
         }
         .company{
             padding-top: 20px;
-            height: fit-content;
             padding-bottom: 0;
+            height: fit-content;
             
         }
     }
@@ -374,5 +343,8 @@ font-family: 'Newsreader', serif;
         .project-img img {
             width: 230px;
             height: 220px;
+        }
+        .company{
+            height: fit-content;
         }
     }
